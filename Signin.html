@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOG IN</title>
+  <link rel="icon" type="" href="./img/logo-03.png">
+  <link rel="stylesheet" href="./loginstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+  <link href='httpcontainer1s://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/6d69456273.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <a href="./Browser.html"><i class="fa-solid fa-house"></i></a>
+    <a href="./main.html" ><i>HAILES</i></a>
+    <a href="#" class="select">Log in</a>
+  </header>
+  
+  <div class="contain">
+    <img  class="cover" src="./cover-02.png" alt="">
+    <div class="logincontainer">
+      <section class="form">
+        <h2>WELCOME BACK</h2>
+        <p>Don't have account?<a class="log-link" href="./login.html">Sign up</a></p>
+        <div class="input-div first focus">
+          <div class="l-icon">
+            <i href="#Contact" class="fas fa-user"></i>
+          </div>
+          <div>
+            <input id="name" class="input" type="text"  required>
+            <label for="">Username </label>
+            <span id="valid-username" class="error">Please enter your Username</span>
+          </div>
+        </div>
+        <div class="input-div second">
+          <div class="l-icon">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+
+          <div>
+            <input id="password" class="input" type="password" required>
+            <label for="">Password</label>
+            <span id="valid-password" class="error">Please enter your Password</span>
+          </div>
+        </div>
+        <a class="forgot" href="#">Forgot Password?</a>
+        <button id="submit" class="submit">Log in</button>
+      </section>
+
+    </div>
+    
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>

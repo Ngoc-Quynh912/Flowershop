@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGN UP</title>
+  <link rel="icon" type="" href="./img/logo-03.png">
+  <link rel="stylesheet" href="./loginstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+  <link href='httpcontainer1s://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/6d69456273.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <a href="./Browser.html"><i class="fa-solid fa-house"></i></a>
+    <a href="./main.html" ><i>HAILES</i></a>
+    <a href="#" class="select">Sign up</a>
+  </header>
+  
+  <div class="contain">
+    <img  class="cover" src="./cover-02.png" alt="">
+    <div class="logincontainer">
+      <section class="form">
+        <h2>CREATE ACCOUNT</h2>
+        <p>Already have account?<a class="log-link" href="./Signin.html">Log in</a></p>
+        <div class="input-div first focus">
+          <div class="l-icon">
+            <i href="#Contact" class="fas fa-user"></i>
+          </div>
+          <div>
+
+            <input id="name" class="input" type="text"  required>
+            <label for="">Username </label>
+            <span id="valid-username" class="error">Username must be at least 6 characters</span>
+          </div>
+        </div>
+        <div class="input-div second">
+          <div class="l-icon">
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div>
+
+            <input id="email" class="input" type="text"  required>
+            <label  for="">Email</label>
+            <span id="valid-email" class="error">Please enter your email</span>
+          </div>
+        </div>
+        <div class="input-div " class="third">
+          <div class="l-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div>
+            <input id="password" class="input" type="password" required>
+            <label for="">Password</label>
+            <span id="valid-password" class="error">Password must be at least 8 characters</span>
+          </div>
+        </div>
+        <div class="input-div " class="third">
+          <div class="l-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div>
+            <input id="cf-password" class="input" type="password" required>
+            <label for="">Confirm Password</label>
+            <span id="cf-password-error" class="error">Password don't match</span>
+          </div>
+        </div>
+        <input type="checkbox">
+        <label class="link" for="">Remember your password</label>
+        <!-- <a class="forgot" href="#">Forgot Password?</a> -->
+        <button id="submit" class="submit">Sign up</button>
+      </section>
+
+    </div>
+  </div>
+  
+  <script src="./profile.js"></script>
+</body>
+</html>
